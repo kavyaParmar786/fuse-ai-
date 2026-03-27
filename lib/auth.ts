@@ -22,7 +22,7 @@ export const authOptions: NextAuthOptions = {
     }
     return session
   },
-},,
+},
   pages: {
     signIn: '/?login=true',
     error: '/?login=true',
